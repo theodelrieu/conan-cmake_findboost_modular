@@ -1,47 +1,183 @@
-set(LEVEL5GROUP 
-	"concept_check"
-	"conversion"
-	"detail"
-	"function"
-	"function_types"
-	"functional"
-	"fusion"
-	"iterator"
-	"mpl"
-	"optional"
-	"type_index"
-	"typeof"
-	"utility"
+set(LEVEL0GROUP
+  callable_traits
+  compatibility
+  config
+  predef
+  preprocessor
 )
 
-set(LEVEL8GROUP 
-	"math"
-	"lexical_cast"
+set(LEVEL1GROUP
+  assert
+  io
+  mp11
+  static_assert
+  vmd
+  winapi
 )
 
-set(LEVEL11GROUP 
-	"date_time"
-	"locale"
-	"pool"
-	"serialization"
-	"spirit"
-	"thread"
+set(LEVEL2GROUP
+  core
+  throw_exception
 )
 
-set(LEVEL14GROUP 
-	"bimap"
-	"disjoint_sets"
-	"graph"
-	"graph_parallel"
-	"mpi"
-	"property_map"
+set(LEVEL3GROUP
+  align
+  array
+  bind
+  integer
+  logic
+  move
+  system
+  type_traits
 )
 
-set(LEVEL_GROUPS
-	LEVEL5GROUP
-	LEVEL8GROUP
-	LEVEL11GROUP
-	LEVEL14GROUP
+set(LEVEL4GROUP
+  atomic
+  crc
+  smart_ptr
+  timer
+  tuple
+)
+
+
+set(LEVEL5GROUP
+  concept_check
+  container_hash
+  conversion
+  detail
+  exception
+  function_types
+  fusion
+  iterator
+  mpl
+  optional
+  typeof
+  utility
+)
+
+
+set(LEVEL6GROUP
+  endian
+  format
+  gil
+  hana
+  intrusive
+  lambda
+  metaparse
+  numeric_conversion
+  numeric_interval
+  polygon
+  qvm
+  rational
+  regex
+  tokenizer
+  tti
+  type_erasure
+  type_index
+)
+
+set(LEVEL7GROUP
+  any
+  container
+  function
+  poly_collection
+  range
+  ratio
+)
+
+set(LEVEL8GROUP
+  chrono
+  circular_buffer
+  filesystem
+  foreach
+  functional
+  lexical_cast
+  locale
+  math
+  proto
+  scope_exit
+  signals
+  unordered
+)
+
+set(LEVEL9GROUP
+  algorithm
+  local_function
+  multi_array
+  phoenix
+  program_options
+  python
+  random
+  stacktrace
+  variant
+  xpressive
+)
+
+set(LEVEL10GROUP
+  iostreams
+  multiprecision
+  parameter
+  test
+)
+
+set(LEVEL11GROUP
+  date_time
+  heap
+  lockfree
+  pool
+  serialization
+  spirit
+  thread
+)
+
+set(LEVEL12GROUP
+  context
+  contract
+  convert
+  dll
+  dynamic_bitset
+  geometry
+  icl
+  interprocess
+  msm
+  multi_index
+  numeric_ublas
+  ptr_container
+  sort
+  statechart
+  units
+  uuid
+)
+
+set(LEVEL13GROUP
+  accumulators
+  assign
+  coroutine
+  coroutine2
+  fiber
+  flyweight
+  property_tree
+  signals2
+  wave
+)
+
+set(LEVEL14GROUP
+  asio
+  bimap
+  chrono_stopwatches
+  compute
+  disjoint_sets
+  graph
+  graph_parallel
+  log
+  mpi
+  property_map
+)
+
+set(LEVEL15GROUP
+  beast
+  numeric_odeint
+  process
 )
 
 set(COMPONENT_PROPERTIES 
